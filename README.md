@@ -23,3 +23,7 @@ This project is licensed under the GPL3 License.
 ## Disclaimer:
 
 BreakAware is intended to promote healthy work habits, but it is ultimately your responsibility to manage your breaks and well-being. Please use it wisely and take breaks as needed for your health and productivity.
+
+## Credits
+
+Thanks for [Pandan (macOS)](https://sindresorhus.com/pandan) for the inspiration.
