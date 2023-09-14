@@ -2,6 +2,11 @@
 
 BreakAware is a lightweight and user-friendly script designed to help you maintain a healthy work-life balance. It tracks the time since your last break, whether it's due to PC sleep, hibernation, logout, or session locking. BreakAware empowers you to be more aware of how you spend your time and encourages you to take regular breaks, enhancing your productivity and well-being.
 
+```
+$ break-aware.fish 
+57m
+```
+
 ## Features:
 
  - Automatically tracks time since the last break.
