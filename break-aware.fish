@@ -41,6 +41,11 @@ set minutes_since_session (math "($current_unix_timestamp - $session_ts) / 60")
 
 set minutes (math floor (math min $minutes_since_session,$minutes_since_resume ))
 
+set break_type "resume"
+if test $minutes_since_session -lt $minutes_since_resume
+  set break_type "session"
+end
+
 if test $minutes -gt $display_threshold
-  echo "$minutes"m
+  echo "$minutes""m since $break_type."
 end
