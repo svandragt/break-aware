@@ -1,11 +1,13 @@
 # BreakAware
 
-BreakAware is a lightweight and user-friendly [Fish shell](https://fishshell.com/) script designed to help you maintain a healthy work-life balance. It tracks the time since your last break, whether it's due to PC sleep, hibernation, logout, or session locking. BreakAware empowers you to be more aware of how you spend your time and encourages you to take regular breaks, enhancing your productivity and well-being.
+BreakAware is a lightweight and user-friendly Bash script designed to help you maintain a healthy work-life balance. It tracks the time since your last break, whether it's due to PC sleep, hibernation, logout, or session locking. BreakAware empowers you to be more aware of how you spend your time and encourages you to take regular breaks, enhancing your productivity and well-being.
+
+An older version of the script is also provided for Fish users.
+
 ```
-$ ./break-aware.fish 
-57m
+$ ./break-aware.sh 
+18m (Dec 13 09:31:50 - session)
 ```
-You do not have to be in a Fish shell session to use it, the only requirement is to have Fish installed on your system.
 
 ## Features:
 
@@ -31,4 +33,4 @@ BreakAware is intended to promote healthy work habits, but it is ultimately your
 
 ## Credits:
 
-Thanks to [Pandan (macOS)](https://sindresorhus.com/pandan) for the inspiration, which is a GUI notification area alternative foc Mac.
+Thanks to [Pandan (macOS)](https://sindresorhus.com/pandan) for the inspiration, which is a GUI notification area alternative for Mac.
